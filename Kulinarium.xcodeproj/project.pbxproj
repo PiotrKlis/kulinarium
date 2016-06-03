@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE70C1FF1D022B9B00DBA511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C1FE1D022B9B00DBA511 /* AppDelegate.swift */; };
+		AE70C2011D022B9B00DBA511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70C2001D022B9B00DBA511 /* ViewController.swift */; };
+		AE70C2041D022B9B00DBA511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE70C2021D022B9B00DBA511 /* Main.storyboard */; };
+		AE70C2061D022B9B00DBA511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE70C2051D022B9B00DBA511 /* Assets.xcassets */; };
+		AE70C2091D022B9B00DBA511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE70C2071D022B9B00DBA511 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE70C1FB1D022B9B00DBA511 /* Kulinarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kulinarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE70C1FE1D022B9B00DBA511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE70C2001D022B9B00DBA511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE70C2031D022B9B00DBA511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE70C2051D022B9B00DBA511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE70C2081D022B9B00DBA511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE70C20A1D022B9B00DBA511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE70C1F81D022B9B00DBA511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE70C1F21D022B9A00DBA511 = {
+			isa = PBXGroup;
+			children = (
+				AE70C1FD1D022B9B00DBA511 /* Kulinarium */,
+				AE70C1FC1D022B9B00DBA511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE70C1FC1D022B9B00DBA511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C1FB1D022B9B00DBA511 /* Kulinarium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE70C1FD1D022B9B00DBA511 /* Kulinarium */ = {
+			isa = PBXGroup;
+			children = (
+				AE70C1FE1D022B9B00DBA511 /* AppDelegate.swift */,
+				AE70C2001D022B9B00DBA511 /* ViewController.swift */,
+				AE70C2021D022B9B00DBA511 /* Main.storyboard */,
+				AE70C2051D022B9B00DBA511 /* Assets.xcassets */,
+				AE70C2071D022B9B00DBA511 /* LaunchScreen.storyboard */,
+				AE70C20A1D022B9B00DBA511 /* Info.plist */,
+			);
+			path = Kulinarium;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE70C1FA1D022B9B00DBA511 /* Kulinarium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE70C20D1D022B9B00DBA511 /* Build configuration list for PBXNativeTarget "Kulinarium" */;
+			buildPhases = (
+				AE70C1F71D022B9B00DBA511 /* Sources */,
+				AE70C1F81D022B9B00DBA511 /* Frameworks */,
+				AE70C1F91D022B9B00DBA511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kulinarium;
+			productName = Kulinarium;
+			productReference = AE70C1FB1D022B9B00DBA511 /* Kulinarium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE70C1F31D022B9A00DBA511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Piotr Klis";
+				TargetAttributes = {
+					AE70C1FA1D022B9B00DBA511 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE70C1F61D022B9A00DBA511 /* Build configuration list for PBXProject "Kulinarium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE70C1F21D022B9A00DBA511;
+			productRefGroup = AE70C1FC1D022B9B00DBA511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE70C1FA1D022B9B00DBA511 /* Kulinarium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE70C1F91D022B9B00DBA511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70C2091D022B9B00DBA511 /* LaunchScreen.storyboard in Resources */,
+				AE70C2061D022B9B00DBA511 /* Assets.xcassets in Resources */,
+				AE70C2041D022B9B00DBA511 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE70C1F71D022B9B00DBA511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70C2011D022B9B00DBA511 /* ViewController.swift in Sources */,
+				AE70C1FF1D022B9B00DBA511 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE70C2021D022B9B00DBA511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE70C2031D022B9B00DBA511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE70C2071D022B9B00DBA511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE70C2081D022B9B00DBA511 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE70C20B1D022B9B00DBA511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE70C20C1D022B9B00DBA511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE70C20E1D022B9B00DBA511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kulinarium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Piotr-Klis.Kulinarium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE70C20F1D022B9B00DBA511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kulinarium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Piotr-Klis.Kulinarium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE70C1F61D022B9A00DBA511 /* Build configuration list for PBXProject "Kulinarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70C20B1D022B9B00DBA511 /* Debug */,
+				AE70C20C1D022B9B00DBA511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE70C20D1D022B9B00DBA511 /* Build configuration list for PBXNativeTarget "Kulinarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70C20E1D022B9B00DBA511 /* Debug */,
+				AE70C20F1D022B9B00DBA511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE70C1F31D022B9A00DBA511 /* Project object */;
+}
