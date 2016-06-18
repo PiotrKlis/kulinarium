@@ -25,9 +25,9 @@ import UIKit
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
-       
+        tableView.delegate = self
         
-        self.title="Sniadanie"
+        self.title="Kategoria"
         
         // Register custom cell
         let nib = UINib(nibName: "vwTblCell", bundle: nil)
@@ -37,7 +37,7 @@ import UIKit
         case 1: tableData = tableDataS
         case 2: tableData = tableDataO
         case 3: tableData = tableDataK
-        default: print("dupa, nie dziala!")
+        default: print("not working")
         
         }
         
@@ -58,9 +58,29 @@ import UIKit
         
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        self.performSegueWithIdentifier("recipeSegue", sender: self)
+        let row = indexPath.row
+        print(tableData[row])
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "recipeSegue",
+            let destination = segue.destinationViewController as? RecipeViewController,
+            let recipeIndex = tableView.indexPathForSelectedRow?.row {
+            
+            destination.recipeName = tableData[recipeIndex] as! String
+        
+        }
+        
     }
     
 
