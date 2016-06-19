@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -96,14 +95,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="aFY-s1-iJY" secondAttribute="trailing" id="008-rl-fDv"/>
-                            <constraint firstItem="aFY-s1-iJY" firstAttribute="leading" secondItem="MJh-66-eu1" secondAttribute="leadingMargin" constant="-20" id="7YN-FJ-p5N"/>
-                            <constraint firstItem="aFY-s1-iJY" firstAttribute="leading" secondItem="MJh-66-eu1" secondAttribute="leading" id="Qur-hD-wKr"/>
-                            <constraint firstItem="aFY-s1-iJY" firstAttribute="bottom" secondItem="PpL-hh-0Od" secondAttribute="top" id="cgr-Km-RUU"/>
-                            <constraint firstItem="aFY-s1-iJY" firstAttribute="leading" secondItem="MJh-66-eu1" secondAttribute="leadingMargin" constant="-20" id="d3i-V1-PUr"/>
-                            <constraint firstItem="aFY-s1-iJY" firstAttribute="leading" secondItem="MJh-66-eu1" secondAttribute="leadingMargin" constant="-20" id="fM5-hg-b5e"/>
-                            <constraint firstItem="aFY-s1-iJY" firstAttribute="leading" secondItem="MJh-66-eu1" secondAttribute="leadingMargin" constant="-20" id="x0c-hD-FJ5"/>
-                            <constraint firstItem="aFY-s1-iJY" firstAttribute="top" secondItem="egT-CV-vXP" secondAttribute="bottom" id="xgl-uV-vlO"/>
+                            <constraint firstItem="aFY-s1-iJY" firstAttribute="top" secondItem="egT-CV-vXP" secondAttribute="bottom" id="7iO-cY-jDm"/>
+                            <constraint firstAttribute="trailing" secondItem="aFY-s1-iJY" secondAttribute="trailing" id="GRy-4C-mPR"/>
+                            <constraint firstItem="aFY-s1-iJY" firstAttribute="leading" secondItem="MJh-66-eu1" secondAttribute="leading" id="NRb-yE-2Hr"/>
+                            <constraint firstItem="aFY-s1-iJY" firstAttribute="bottom" secondItem="PpL-hh-0Od" secondAttribute="top" id="TKe-ft-LWM"/>
                         </constraints>
                     </view>
                     <connections>
