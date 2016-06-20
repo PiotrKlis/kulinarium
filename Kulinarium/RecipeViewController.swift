@@ -13,16 +13,17 @@ class RecipeViewController: UIViewController {
     @IBOutlet var RecipeNameLabel: UIView!
     @IBOutlet weak var recipeLabel: UILabel!
     
-    var recipeName = String()
+    var recipeName: String!
     
     override func viewWillAppear(animated: Bool) {
+        
         recipeLabel.text = recipeName
+        
     }
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
