@@ -31,9 +31,9 @@ import UIKit
         tableView.registerNib(nib, forCellReuseIdentifier: "cell")
         
         switch toPass {
-        case 1: tableData = tableDataS
-        case 2: tableData = tableDataO
-        case 3: tableData = tableDataK
+        case 0: tableData = tableDataS
+        case 1: tableData = tableDataO
+        case 2: tableData = tableDataK
         default: print("not working")
         
         }
@@ -61,12 +61,76 @@ import UIKit
         
     }
     
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "recipeSegue",
             let destination = segue.destinationViewController as? RecipeViewController,
             let recipeIndex = tableView.indexPathForSelectedRow?.row {
             
-            destination.recipeName = tableData[recipeIndex]
+            
+            
+            if (toPass == 0) {
+                switch recipeIndex {
+                case 0:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 0 dla sniadania"
+                    destination.instrName = "Tekst instrukcji 0 dla sniadania"
+                case 1:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 1"
+                    destination.instrName = "Tekst instrukcji 1"
+                case 2:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 2"
+                    destination.instrName = "Tekst instrukcji 2"
+                default: print("not working")
+                }
+            }
+            
+            if (toPass == 1) {
+                switch recipeIndex {
+                case 0:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 0 dla obiad"
+                    destination.instrName = "Tekst instrukcji 0 dla obiad"
+                case 1:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 1"
+                    destination.instrName = "Tekst instrukcji 1"
+                case 2:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 2"
+                    destination.instrName = "Tekst instrukcji 2"
+                default: print("not working")
+                }
+            }
+            
+            if (toPass == 2) {
+                switch recipeIndex {
+                case 0:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 0 dla kolacja"
+                    destination.instrName = "Tekst instrukcji 0 dla kolacja"
+                case 1:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 1"
+                    destination.instrName = "Tekst instrukcji 1"
+                case 2:
+                    destination.recipeName = tableData[recipeIndex]
+                    destination.imageName = tableData[recipeIndex]
+                    destination.ingrName = "Tekst skladnikow 2"
+                    destination.instrName = "Tekst instrukcji 2"
+                default: print("not working")
+                }
+            }
             
         }
         
@@ -77,18 +141,6 @@ import UIKit
         //tableView.deselectRowAtIndexPath(indexPath, animated: true)
         self.performSegueWithIdentifier("recipeSegue", sender: self)
     }
-        
     
-    
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-} 

@@ -10,14 +10,24 @@ import UIKit
 
 class RecipeViewController: UIViewController {
 
-    @IBOutlet var RecipeNameLabel: UIView!
-    @IBOutlet weak var recipeLabel: UILabel!
+    @IBOutlet weak var instrText: UITextView!
+    @IBOutlet weak var ingrText: UITextView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var recipeImg: UIImageView!
+
     
     var recipeName: String!
+    var imageName: String!
+    var ingrName: String!
+    var instrName: String!
     
     override func viewWillAppear(animated: Bool) {
         
-        recipeLabel.text = recipeName
+        nameLabel.text = recipeName
+        recipeImg.image = UIImage(named: imageName)
+        ingrText.text = ingrName
+        instrText.text = instrName
+        
         
     }
     
