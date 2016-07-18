@@ -10,10 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Menu"
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor(patternImage: (UIImage(named:"healthyBackground"))!)
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -26,21 +29,20 @@ class ViewController: UIViewController {
        if (segue.identifier == "sniadanieSegue") {
             let svc = segue.destinationViewController as! SniadanieViewController
             
-            svc.toPass = 1
+            svc.toPass = 0
         }
         else if (segue.identifier == "obiadSegue") {
             let svc = segue.destinationViewController as! SniadanieViewController
             
-            svc.toPass = 2
+            svc.toPass = 1
         }
         else if (segue.identifier == "kolacjaSegue") {
             let svc = segue.destinationViewController as! SniadanieViewController
             
-            svc.toPass = 3
+            svc.toPass = 2
         }
  
-    }
-    
+    }    
 
 }
 
